@@ -91,7 +91,7 @@ class _G3State extends State<G3> {
                     minimumSize: const Size(250,50),
                   ),
                   onPressed: () {
-                    Navigator.pushNamed(context, "real_home_page");
+                    Navigator.pushNamed(context, "main_page");
                   },
                   child: const Text("Get Started",
                       style: TextStyle(fontSize: 18, color: Colors.white)),
